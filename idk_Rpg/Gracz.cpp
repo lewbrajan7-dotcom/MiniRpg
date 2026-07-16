@@ -220,10 +220,10 @@ int Gracz::WczytajGre() {
     int wczytanyPoziomGry = 1;
 
     if (plik.is_open()) {
-        // 1. Najpierw wczytujemy dane (w tym aktualny Poziom!)
+        
         plik >> Poziom >> PunktyZycia >> Portfel >> mikstura >> Doswiadczenie >> wczytanyPoziomGry;
 
-        // 2. Dopiero teraz ustawiamy statystyki bazowe na podstawie wczytanego poziomu
+        
         MaxPunktyZycia = 100 + ((Poziom - 1) * 20);
         SilaAtaku = 15 + ((Poziom - 1) * 5);
         Obrona = 5 + ((Poziom - 1) * 2);
@@ -231,7 +231,7 @@ int Gracz::WczytajGre() {
         string nazwa;
         int atak, obrona;
 
-        // 3. Wczytujemy ekwipunek i dodajemy bonusy
+        
         plik >> nazwa >> atak >> obrona;
         Miecz = Przedmiot(nazwa, atak, obrona);
         SilaAtaku += Miecz.PobierzBonusAtaku();
