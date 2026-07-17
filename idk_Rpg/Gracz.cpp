@@ -276,7 +276,7 @@ int Gracz::WczytajGre() {
 bool Gracz::ProbaUcieczki()
 {   
     int los = rand()%100+1;
-    if(los<60){
+    if(los>  60){
         cout<<"udalo sie uciec"<<endl;
         return true;
     }else{

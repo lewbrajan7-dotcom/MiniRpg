@@ -163,6 +163,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Potwor.cpp" />
     <ClCompile Include="Przedmiot.cpp" />
+    <ClCompile Include="Zadania.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arena.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="Jednostka.h" />
     <ClInclude Include="Potwor.h" />
     <ClInclude Include="Przedmiot.h" />
+    <ClInclude Include="Zadania.h" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="idk_Rpg.vcxproj.filters" />

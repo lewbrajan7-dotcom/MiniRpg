@@ -9,6 +9,7 @@
 #include "Gracz.h"
 #include "Przedmiot.h"
 #include "Jednostka.h"
+#include "Zadania.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main() {
     srand(time(0));
     Gracz gracz("Brajan");
     Arena arena;
+    Zadanie zadanie(5);
     int poziomGry = 1;
 	cout << "1. Nowa gra | 2. Wczytaj gre: ";
     int wybor;
@@ -27,6 +29,7 @@ int main() {
     while(gracz.CzyZyje()) {
         vector<Potwor> listaPrzeciwnikow;
         cout << "--- POZIOM " << poziomGry << " ---" << endl;
+        zadanie.ObecneZadanie();
 
         if (poziomGry % 5 == 0) {
             Potwor boss("Boss", 300 + (poziomGry * 20), 20 + poziomGry, 5, 500, 200);
@@ -36,11 +39,18 @@ int main() {
                 listaPrzeciwnikow.push_back(Potwor("Goblin", 50, 10, 2, 50, 50));
             }
         }
-        arena.PrzeprowadzWalke(gracz, listaPrzeciwnikow);
-
+        arena.PrzeprowadzWalke(gracz, listaPrzeciwnikow, zadanie);
+        zadanie.ZarejestrujZabojstwo();
         if(gracz.CzyZyje()) {
             gracz.Sklep();
             poziomGry++;
+        }
+        if (zadanie.CzyUkonczone())
+        {
+            gracz.ZyskajDoswiadczenie(50);
+            gracz.ZyskajZloto(50);
+            zadanie.ZresetujZabojstwa();
+            zadanie.ZwiekszWymagania();
         }
 		cout<<"Chcesz zapisac gre i wyjsc ?0-nie /1-tak"<<endl;
 		int decyzja;
@@ -49,6 +59,7 @@ int main() {
 			gracz.ZapiszGre(poziomGry);
 			break;
 		}
+        
 		
     }
     return 0;

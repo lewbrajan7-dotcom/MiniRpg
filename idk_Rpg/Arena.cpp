@@ -8,9 +8,9 @@
 #include <vector>
 #include "Gracz.h"
 #include "Przedmiot.h"
-#include "Jednostka.h"
+#include "Zadania.h"
 
-void Arena::PrzeprowadzWalke(Gracz &gracz, vector<Potwor> &przeciwnicy) {
+void Arena::PrzeprowadzWalke(Gracz &gracz, vector<Potwor> &przeciwnicy,Zadanie &zadanie) {
     while (gracz.CzyZyje() && !przeciwnicy.empty()) {
 
         cout << "\n--- TURA GRACZA ---" << endl;
@@ -36,6 +36,7 @@ void Arena::PrzeprowadzWalke(Gracz &gracz, vector<Potwor> &przeciwnicy) {
 
             if (!przeciwnicy[wybor].CzyZyje()) {
                 cout << "Pokonales przeciwnika!" << endl;
+                zadanie.ZarejestrujZabojstwo();
                 gracz.ZyskajDoswiadczenie(przeciwnicy[wybor].PobierzNagrode());
                 gracz.ZyskajZloto(przeciwnicy[wybor].PobierzZloto());
                 gracz.DodajPrzedmiot(przeciwnicy[wybor].DropItemu());
