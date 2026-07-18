@@ -14,27 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b46ea34-c914-4598-9d35-86d1f4733fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/idk_Rpg/Zadania.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idk_Rpg/Zadania.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/Arena.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Arena.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/Arena.h" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Arena.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.idk_Rpg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.idk_Rpg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/Gracz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Gracz.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/idk_Rpg.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/idk_Rpg.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idk_Rpg/Gracz.h" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Gracz.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idk_Rpg/Zadania.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Zadania.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idk_Rpg/Zadania.h" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/Zadania.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Arena.obj" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Arena.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Gracz.obj" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Gracz.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Zadania.obj" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/Zadania.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/idk_Rpg.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/main.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/vc145.idb" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/vc145.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idk_Rpg/x64/Debug/vc145.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/idk_Rpg/x64/Debug/vc145.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/idk_Rpg.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/idk_Rpg.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/idk_Rpg.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/idk_Rpg.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,61 +69,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.028731450626586E-6" />
-      <entry key="MS500" value="0.13050728637244435" />
-      <entry key="S2" value="1.0081904364677994" />
-      <entry key="S5" value="1.5203494445238415" />
-      <entry key="S10" value="1.7436986623207154" />
-      <entry key="S30" value="1.9128026333836534" />
-      <entry key="S60" value="2.057967263105475" />
-      <entry key="M2" value="3.0324211663339917" />
-      <entry key="M5" value="13.925644171021299" />
-      <entry key="M10" value="45.682803472518216" />
-      <entry key="M15" value="76.27319874983937" />
-      <entry key="M30" value="136.98124038730893" />
-      <entry key="H1" value="189.39625301131537" />
-      <entry key="H2" value="224.6199424511625" />
-      <entry key="H4" value="245.1655451064946" />
-      <entry key="D1" value="264.02331502999976" />
-      <entry key="W1" value="267.4275489214864" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000401659" />
+      <entry key="S5" value="1.0000781867408441" />
+      <entry key="S10" value="1.0125037654271636" />
+      <entry key="S30" value="1.4981830032133328" />
+      <entry key="S60" value="2.6273002893014015" />
+      <entry key="M2" value="5.053892445457814" />
+      <entry key="M5" value="11.91733061094467" />
+      <entry key="M10" value="27.791910556441398" />
+      <entry key="M15" value="49.335801850248075" />
+      <entry key="M30" value="108.5799708630444" />
+      <entry key="H1" value="174.20909761273404" />
+      <entry key="H2" value="224.66151740094966" />
+      <entry key="H4" value="256.21387109977934" />
+      <entry key="D1" value="286.4674541603318" />
+      <entry key="W1" value="292.0564051951497" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000001978" />
-      <entry key="MS500" value="1.0028794320650216" />
-      <entry key="S2" value="1.2316470154725927" />
-      <entry key="S5" value="1.5570968254097142" />
-      <entry key="S10" value="1.7463895589127327" />
-      <entry key="S30" value="1.9295036024379184" />
-      <entry key="S60" value="2.42605845058886" />
-      <entry key="M2" value="4.653575874984208" />
-      <entry key="M5" value="12.74604899890998" />
-      <entry key="M10" value="24.8741677208895" />
-      <entry key="M15" value="33.98956205072844" />
-      <entry key="M30" value="49.76871140034309" />
-      <entry key="H1" value="62.25228527713755" />
-      <entry key="H2" value="70.31423432933595" />
-      <entry key="H4" value="74.93024392895366" />
-      <entry key="D1" value="79.12123351416817" />
-      <entry key="W1" value="79.87360202536867" />
+      <entry key="MS100" value="2.039850393227267E-77" />
+      <entry key="MS500" value="4.732236580498234E-16" />
+      <entry key="S2" value="2.0824016490713276E-4" />
+      <entry key="S5" value="0.05316851982714411" />
+      <entry key="S10" value="0.3803411086725345" />
+      <entry key="S30" value="1.7429936169097813" />
+      <entry key="S60" value="2.9413530539455808" />
+      <entry key="M2" value="4.543046067920328" />
+      <entry key="M5" value="8.925806591144799" />
+      <entry key="M10" value="17.606457670102905" />
+      <entry key="M15" value="26.50187649774052" />
+      <entry key="M30" value="46.31377988516359" />
+      <entry key="H1" value="65.41944044756906" />
+      <entry key="H2" value="79.16492879381823" />
+      <entry key="H4" value="87.49183149396404" />
+      <entry key="D1" value="95.32539396576408" />
+      <entry key="W1" value="96.75845712475824" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.007867435512744492" />
-      <entry key="MS500" value="0.4450667767276036" />
-      <entry key="S2" value="1.7478803980011848" />
-      <entry key="S5" value="2.774879320752425" />
-      <entry key="S10" value="3.3115454435629483" />
-      <entry key="S30" value="3.7743989868325345" />
-      <entry key="S60" value="4.436794238015942" />
-      <entry key="M2" value="7.628607385527547" />
-      <entry key="M5" value="26.590068477740605" />
-      <entry key="M10" value="70.46505931811691" />
-      <entry key="M15" value="110.17485858010282" />
-      <entry key="M30" value="186.68288394278704" />
-      <entry key="H1" value="251.6059463029359" />
-      <entry key="H2" value="294.909983579298" />
-      <entry key="H4" value="320.08286799770946" />
-      <entry key="D1" value="343.14227079805335" />
-      <entry key="W1" value="347.30082237561254" />
+      <entry key="MS100" value="3.857623593082895E-4" />
+      <entry key="MS500" value="0.20761750602272364" />
+      <entry key="S2" value="0.6751763961547396" />
+      <entry key="S5" value="0.9022095239662103" />
+      <entry key="S10" value="1.2961249757333577" />
+      <entry key="S30" value="3.17050776482705" />
+      <entry key="S60" value="5.5066448333873375" />
+      <entry key="M2" value="9.54130418027167" />
+      <entry key="M5" value="20.789079561025368" />
+      <entry key="M10" value="45.338090856758484" />
+      <entry key="M15" value="75.77359141937379" />
+      <entry key="M30" value="154.83428177551343" />
+      <entry key="H1" value="239.5854189818476" />
+      <entry key="H2" value="303.80006417709103" />
+      <entry key="H4" value="343.69105176514546" />
+      <entry key="D1" value="381.790177638337" />
+      <entry key="W1" value="388.81447484890407" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -137,32 +135,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ Project.idk_Rpg.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ Project.idk_Rpg.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="idk_Rpg" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -195,7 +193,8 @@
       <workItem from="1783517176723" duration="146000" />
       <workItem from="1784232714009" duration="2243000" />
       <workItem from="1784235221981" duration="975000" />
-      <workItem from="1784256886010" duration="3424000" />
+      <workItem from="1784256886010" duration="5037000" />
+      <workItem from="1784293372951" duration="874000" />
     </task>
     <servers />
   </component>

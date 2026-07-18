@@ -3,6 +3,7 @@
 #include "Jednostka.h"
 #include <vector>
 #include "Przedmiot.h"
+#include "Zadania.h"
 using namespace std;
 class Gracz : public Jednostka{
 private:
@@ -27,8 +28,8 @@ public:
     void Sklep();
     void ZyskajZloto(int ilosc);
     void UzyjMikstury();
-    void ZapiszGre(int poziomGry);
-    int WczytajGre();
+    void ZapiszGre(int poziomGry,Zadanie &zadanie);
+    int WczytajGre(Zadanie &zadanie);
     bool ProbaUcieczki();
 
 

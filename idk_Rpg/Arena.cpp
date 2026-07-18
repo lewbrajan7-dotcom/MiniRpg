@@ -4,9 +4,7 @@
 #include "Potwor.h"
 #include "Arena.h"
 #include <cstdlib>
-#include <ctime>
 #include <vector>
-#include "Gracz.h"
 #include "Przedmiot.h"
 #include "Zadania.h"
 

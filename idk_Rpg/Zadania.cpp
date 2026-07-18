@@ -1,5 +1,4 @@
 #include "Zadania.h"
-#include "Potwor.h"
 #include "Gracz.h"
 #include <iostream>
 
@@ -44,4 +43,21 @@ void Zadanie::ZresetujZabojstwa()
 void Zadanie::ZwiekszWymagania()
 {
     WymaganeZabojstwa *= 2; 
+}
+
+int Zadanie::getWymaganeZabojstwa()
+{
+    return WymaganeZabojstwa;
+}
+int Zadanie::getAktualneZabojstwa()
+{
+    return AktualneZabojstwa;
+}
+void Zadanie::UstawWymaganeZabojstwa(int ile)
+{
+    WymaganeZabojstwa = ile;
+}
+void Zadanie::UstawAktualneZabojstwa(int ile)
+{
+    AktualneZabojstwa = ile;
 }

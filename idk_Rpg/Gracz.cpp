@@ -3,6 +3,7 @@
 #include "Gracz.h"
 #include "Przedmiot.h"
 #include <fstream>
+#include "Zadania.h"
 using namespace std;
 Gracz::Gracz(string nazwaBohatera) : Jednostka(nazwaBohatera, 100, 15, 5) {
 Poziom =1;
@@ -172,7 +173,7 @@ void Gracz::Sklep() {
                     SilaAtaku +=10;
                     Miecz.ZwiekszBonusAtaku(10) ;
                     cout << "Ulepszono miecz!" << endl;
-                    cout << "Kupiono miksture! Pozostale zloto: " << Portfel << endl;
+                    cout << "Kupiono miecz! Pozostale zloto: " << Portfel << endl;
                 } else {
                     cout << "Nie udalo sie ulepszyc!" << endl;
                 }
@@ -192,11 +193,11 @@ void Gracz::UzyjMikstury() {
         cout << "Brak mikstur!" << endl;
     }
 }
-void Gracz::ZapiszGre(int poziomGry) {
+void Gracz::ZapiszGre(int poziomGry,Zadanie &zadanie) {
     ofstream plik("zapis.txt");
     if (plik.is_open()) {
         plik << Poziom << " " << PunktyZycia << " " << Portfel << " " << mikstura << " " << Doswiadczenie << " " << poziomGry << endl;
-        
+        plik << zadanie.getAktualneZabojstwa() << " " << zadanie.getWymaganeZabojstwa() << std::endl;
         plik << Miecz.PobierzNazwe() << " " << Miecz.PobierzBonusAtaku() << " " << Miecz.PobierzBonusObrony() << endl;
         plik << Helm.PobierzNazwe() << " " << Helm.PobierzBonusAtaku() << " " << Helm.PobierzBonusObrony() << endl;
         plik << Klata.PobierzNazwe() << " " << Klata.PobierzBonusAtaku() << " " << Klata.PobierzBonusObrony() << endl;
@@ -215,14 +216,18 @@ void Gracz::ZapiszGre(int poziomGry) {
 }
 
 
-int Gracz::WczytajGre() {
+int Gracz::WczytajGre(Zadanie &zadanie) {
     ifstream plik("zapis.txt");
     int wczytanyPoziomGry = 1;
 
     if (plik.is_open()) {
         
         plik >> Poziom >> PunktyZycia >> Portfel >> mikstura >> Doswiadczenie >> wczytanyPoziomGry;
-
+        int wymagane, aktualne;
+        plik >> aktualne >>wymagane ;
+        
+        zadanie.UstawWymaganeZabojstwa(wymagane);
+        zadanie.UstawAktualneZabojstwa(aktualne);
         
         MaxPunktyZycia = 100 + ((Poziom - 1) * 20);
         SilaAtaku = 15 + ((Poziom - 1) * 5);

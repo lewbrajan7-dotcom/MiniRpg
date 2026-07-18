@@ -6,9 +6,6 @@
 #include <cstdlib>
 #include <ctime>
 #include <vector>
-#include "Gracz.h"
-#include "Przedmiot.h"
-#include "Jednostka.h"
 #include "Zadania.h"
 
 using namespace std;
@@ -23,7 +20,7 @@ int main() {
     int wybor;
     cin >> wybor;
     if (wybor == 2) {
-        poziomGry = gracz.WczytajGre();
+        poziomGry = gracz.WczytajGre(zadanie);
     }
 
     while(gracz.CzyZyje()) {
@@ -40,7 +37,7 @@ int main() {
             }
         }
         arena.PrzeprowadzWalke(gracz, listaPrzeciwnikow, zadanie);
-        zadanie.ZarejestrujZabojstwo();
+        
         if(gracz.CzyZyje()) {
             gracz.Sklep();
             poziomGry++;
@@ -56,7 +53,7 @@ int main() {
 		int decyzja;
 		cin>>decyzja;
 		if (decyzja == 1) {
-			gracz.ZapiszGre(poziomGry);
+			gracz.ZapiszGre(poziomGry,zadanie);
 			break;
 		}
         

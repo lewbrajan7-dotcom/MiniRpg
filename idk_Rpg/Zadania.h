@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <string>
 
 using namespace std;
@@ -16,4 +15,8 @@ public:
     bool CzyUkonczone();
     void ZresetujZabojstwa();
     void ZwiekszWymagania();
+    int getWymaganeZabojstwa();
+    int getAktualneZabojstwa();
+    void UstawWymaganeZabojstwa(int ile);
+    void UstawAktualneZabojstwa(int ile);
 };
